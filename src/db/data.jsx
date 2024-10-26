@@ -318,4 +318,4 @@ const data = [
   },
 ];
 
-export default data;
+export default data; // means that you do not have the import the file in the component where you want to use the data. You can just import the data from this file.
