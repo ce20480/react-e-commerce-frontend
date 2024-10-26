@@ -19,8 +19,10 @@ function App() {
     setQuery(e.target.value);
   };
 
-  const filteredItems = products.filter((product) =>
-    product.title.toLocaleLowerCase().includes(query.toLocaleLowerCase()),
+  const filteredItems = products.filter(
+    (product) =>
+      product.title.toLocaleLowerCase().indexOf(query.toLocaleLowerCase()) !==
+      -1,
   );
 
   // Radio filter
