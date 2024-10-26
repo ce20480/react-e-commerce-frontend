@@ -21,9 +21,10 @@ const Products = () => {
               <AiFillStar className="rating-star" />
               <span className="total-reviews">4</span>
             </section>
+
             <section className="card-price">
               <div className="price">
-                Was <del>$300</del> Now $200
+                <del>$300</del> - $200
               </div>
               <div className="bag">
                 <BsFillBagHeartFill className="bag-icon" />
