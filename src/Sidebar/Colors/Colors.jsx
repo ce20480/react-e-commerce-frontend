@@ -4,7 +4,7 @@ import "./Colors.css";
 const Colors = ({ handleChange }) => {
   return (
     <div>
-      <h2 className="sidebar-title-color-title">Color</h2>
+      <h2 className="sidebar-title color-title">Color</h2>
       <label className="sidebar-label-container">
         <input onChange={handleChange} value="" type="radio" name="test1" />
         <span className="checkmark all"></span>
