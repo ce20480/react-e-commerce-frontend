@@ -72,10 +72,10 @@ function App() {
 
   return (
     <>
-      <Sidebar />
-      <Nav />
-      <Recommended />
-      <Products />
+      <Sidebar handleChange={handleChange} />
+      <Nav query={query} handleInputChange={handleInputChange} />
+      <Recommended handleClick={handleClick} />
+      <Products filteredProds={filteredProds} />
     </>
   );
 }
